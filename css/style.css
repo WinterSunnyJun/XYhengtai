@@ -31,11 +31,20 @@ a.active{
     clear: both;
     visibility: hidden;
 }
-input,button{
+input,button,textarea{
     outline: none;
     border: none;
     list-style-type: none;
     background: none;
+
+}
+textarea{
+    overflow: hidden;
+    resize: none;
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 /*顶部*/
 .top-wrapper{
@@ -293,6 +302,8 @@ input,button{
 .Iproduct-mask img{
     display: block;
     margin: 75px auto;
+    width: 55px;
+    height: 55px;
 }
 .Iproduct-list ul li:hover .Iproduct-mask{
     display: block;

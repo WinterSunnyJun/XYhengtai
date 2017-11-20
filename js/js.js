@@ -49,12 +49,28 @@ $(function () {
 //    关于我们人才招聘
     $('.recruit-list li').click(function () {
         $(this).find('.recruit-hide').slideToggle();
-        if ($(this).find('.recruit-hide').show()){
+        if ($(this).find('.recruit-hide').css('display','block')){
             $(this).addClass('active');
         }else {
             $(this).removeClass('active');
         }
 
     })
+
+//    产品中心侧栏
+    $('.pd-sidebar-list > li').click(function () {
+        $(this).find('.pd-sublist').toggle(
+            function () {
+                $(this).find('.pd-sublist').show();
+                $(this).addClass('active');
+            },
+            function () {
+                $(this).find('.pd-sublist').hide();
+                $(this).removeClass('active');
+            }
+        )
+    })
+
+
 
 })
