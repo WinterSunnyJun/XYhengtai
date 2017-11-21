@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <title>轩洋恒泰·案例详情</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/substyle.css">
+    <link rel="stylesheet" href="css/sj.css">
     <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.zySlide.js"></script>
     <script src="js/js.js"></script>
 </head>
 <body>
@@ -31,7 +36,111 @@
         </div>
     </div>
 </div>
-
+<!--手机nav-->
+<div class="sj-nav clearfix w100">
+    <div class="sj-logo fl">
+        <img src="img/sj-logo.png" alt="62*30">
+    </div>
+    <div class="sj-nav-bar fr" id="sj-nav-bar">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="sj-nav-menu">
+        <li><a href="index.html">首页</a></li>
+        <li><a href="gywm.html">关于我们</a></li>
+        <li><a href="cpzx.html">产品中心</a></li>
+        <li><a href="cgal.html">成功案例</a></li>
+        <li><a href="cgal.html">新闻中心</a></li>
+        <li><a href="lxwm.html">联系我们</a></li>
+    </ul>
+</div>
+<!--手机nav结束-->
+<!--banner-->
+<div class="sub-banner w100">
+    <img src="img/al-banner.jpg" alt="">
+</div>
+<div class="alxq-body w1200">
+    <h3 class="alxq-title">成功案例展示</h3>
+    <div class="alxq-show w100" id="zySlide">
+        <ul>
+            <li><img src="img/alde0.jpg" alt="605*387"></li>
+            <li><img src="img/alde.jpg" alt="463*315"></li>
+            <li><img src="img/alde0.jpg" alt="605*387"></li>
+            <li><img src="img/alde.jpg" alt="463*315"></li>
+            <li><img src="img/alde0.jpg" alt="605*387"></li>
+            <li><img src="img/alde.jpg" alt="463*315"></li>
+            <li><img src="img/alde.jpg" alt="463*315"></li>
+        </ul>
+        <div class="alxq-left">&lt;</div>
+        <div class="alxq-right">&gt;</div>
+    </div>
+    <div class="alxq-text w100">
+        <div class="alxq-text-title">
+            <span></span>
+            <h3>广州鑫瑞汽修研发中心</h3>
+            <span></span>
+        </div>
+        <p>
+            北京小马识途文化传播有限公司是一家专注于网络营销服务的专业化公司，
+            团队由多年互联网营销实战的网络营销顾问领衔，服务项目紧跟互联网的发展，
+            包括新闻软文传播，搜索引擎营销，网络危机公关，网络互动营销，新媒体营销，网络营销培训，网站运营托管等。
+            资深网络营销顾问，专业网站优化师，配合实战派营销精英，为您提供网络营销一站式解决方案。
+        </p>
+    </div>
+</div>
+<div class="pd-link w1200 clearfix">
+    <div class="pd-link-cu fl">
+        <h3>联系我们</h3>
+        <ul>
+            <li>
+                <div class="pd-cu-icon">
+                    <img src="img/icon-cony11.png" alt="24*24">
+                </div>
+                <p>北京轩洋恒泰厨房设备有限公司</p>
+            </li>
+            <li>
+                <div class="pd-cu-icon">
+                    <img src="img/icon-tel11.png" alt="24*24">
+                </div>
+                <p>1212545464</p>
+            </li>
+            <li>
+                <div class="pd-cu-icon">
+                    <img src="img/icon-sj11.png" alt="24*24">
+                </div>
+                <p>654679754131</p>
+            </li>
+            <li>
+                <div class="pd-cu-icon">
+                    <img src="img/icon-add11.png" alt="24*24">
+                </div>
+                <p>地址:北京轩洋恒泰厨房设备有限公司</p>
+            </li>
+        </ul>
+    </div>
+    <div class="pd-message fr clearfix">
+        <h3>在线留言</h3>
+        <ul class="fl">
+            <li>
+                <input type="text" placeholder="姓名">
+            </li>
+            <li>
+                <input type="text" placeholder="联系方式">
+            </li>
+            <li>
+                <input type="text" placeholder="邮箱">
+            </li>
+        </ul>
+        <div class="fr message-box">
+            <textarea>写下您的留言</textarea>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="pd-message-bth">
+            <button>在线留言</button>
+        </div>
+    </div>
+</div>
 <!--底部-->
 <div class="footer-wrapper w100">
     <div class="footer-map-link w1200 clearfix">
@@ -97,5 +206,24 @@
         <p class="fr">品牌策划：北京前潮宇睿科技有限公司</p>
     </div>
 </div>
+<!--手机端底部-->
+<div class="pho_footer">
+    <ul class="clearfix">
+        <li><a href="index.html">
+            <p class="fIcon_pic"><img src="img/fIcon_home.png"/></p>
+            <p class="fIcon_text">首页</p>
+        </a></li>
+        <li><a href="cpxq.html">
+            <p class="fIcon_pic"><img src="img/fIcon_product.png"/></p>
+            <p class="fIcon_text">产品中心</p>
+        </a>
+        </li>
+        <li><a href="lxwm.html">
+            <p class="fIcon_pic"><img src="img/fIcon_us.png"/></p>
+            <p class="fIcon_text">联系我们</p>
+        </a></li>
+    </ul>
+</div>
+<!--手机端底部结束-->
 </body>
 </html>
