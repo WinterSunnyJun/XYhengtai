@@ -414,6 +414,45 @@
         font-size: 18px;
         margin-top: 10px;
     }
+    /*产品详情*/
+    .pdxq-wrapper{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .pdxq{
+        margin-top: 20px;
+    }
+    .pdxq-pic{
+        float: none;
+        width: 100%;
+    }
+    .pdxq-pic-btn{
+        width: 30%;
+        height: 180px;
+    }
+    .pdxq-pic-pic{
+        width: 65%;
+        height: 180px;
+    }
+    .pdxq-text{
+        float: none;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .pdxq-title h3{
+        font-size: 18px;
+    }
+    .pdxq-title p{
+        font-size: 16px;
+    }
+    .pdxq-text-box{
+        margin-top: 15px;
+    }
+    .pdxq-recommend{
+        margin-top: 20px;
+    }
+
     /*成功案例*/
     .al-body{
         width: 100%;
@@ -458,7 +497,99 @@
     .al-page{
         margin: 20px 0;
     }
-
+    /*新闻中心*/
+    .news-body{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .new-btn ul li{
+        width: 33.33%;
+        margin: 0;
+        font-size: 18px;
+    }
+    .new-list ul li{
+        padding: 0;
+    }
+    .new-item-pic{
+        float: none;
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .new-item-text{
+        float: none;
+        margin-left:0;
+        width: 100%;
+    }
+    .new-item-title{
+        font-size: 18px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .new-item-content{
+        margin-top: 15px;
+    }
+    .new-item-text time{
+        margin-top: 10px;
+    }
+    .new-item-arrow{
+        display: none;
+    }
+    /*新闻详情*/
+    .new-detail{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .new-location{
+        display: none;
+    }
+    .new-detial-content h3{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .new-detial-content time{
+        margin: 10px auto;
+    }
+    .new-detial-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .new-detial-pic{
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+    /*联系我们*/
+    .cu-body{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .cu-map{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .cu-link{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .cu-link ul li{
+        margin-bottom: 15px;
+    }
+    /*售后服务*/
+    .sh-body{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+    .sh-title{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 769px){

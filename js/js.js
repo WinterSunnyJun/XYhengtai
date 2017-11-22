@@ -50,19 +50,22 @@ $(function () {
         $('.Inew-honor-list ul li').eq(IhNow).show().siblings().hide();
     })
 //    关于我们荣誉资质
-    if($(window).width() > 780){
+    if($(window).width() > 768){
         $('.honor-list ul').bxSlider({
             minSlides:4,
             maxSlides:4,
             moveSlides:4,
+            slideWidth:300
         });
     }else {
         $('.honor-list ul').bxSlider({
             minSlides:1,
             maxSlides:1,
-            moveSlides:1,
+            moveSlides:1
         });
     }
+
+
 
 
 //    关于我们人才招聘
@@ -91,6 +94,12 @@ $(function () {
             maxSlides:3,
             moveSlides:1,
             slideWidth: 400
+        });
+    }else{
+        $('.pdxq-slide').bxSlider({
+            minSlides:1,
+            maxSlides:3,
+            moveSlides:1
         });
     }
     $('.pdxq-recommend-list .bx-wrapper .bx-prev').html('&lt;')

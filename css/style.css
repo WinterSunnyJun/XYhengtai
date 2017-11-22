@@ -51,7 +51,7 @@ img{
     background: #fafafa;
 }
 .top{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 .logo{
@@ -319,6 +319,7 @@ img{
     width: 23.5%;
     margin-right: 2%;
     margin-bottom: 30px;
+    text-align: center;
 }
 .Iproduct-list ul li:nth-child(4n){
     margin-right: 0;
@@ -366,7 +367,7 @@ img{
 /*首页关于我们*/
 .Iabout-wrapper{
     margin-top: 140px;
-    background: #ea9f61;
+    background: #1aa48a;
     height: 524px;
 }
 .Iabout-pic{
@@ -715,10 +716,16 @@ img{
     letter-spacing: 4px;
 }
 .Ishfw-more{
-    display: inline;
+    display: inline-block;
+    width: 66px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid #00b7ee;
     float: right;
     color: #00b7ee;
     letter-spacing: 2px;
+    border-radius: 5px;
 }
 .Iservice-list{
     width: 100%;
