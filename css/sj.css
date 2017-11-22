@@ -397,11 +397,19 @@
         margin-top: 20px;
     }
     .pd-link{
+        width: 100%;
         margin-top: 20px;
+    }
+    .pd-link-cu{
+        width: 100%;
+        padding-left: 20px;
+        box-sizing: border-box;
     }
     .pd-message{
         float: none;
         width: 100%;
+        padding-left: 20px;
+        box-sizing: border-box;
     }
     .message-box{
         width: 100%;
@@ -589,6 +597,30 @@
     }
     .sh-title{
         width: 100%;
+    }
+    /*案例详情*/
+    .alxq-body{
+        width: 100%;
+        padding: 0 2%;
+        box-sizing: border-box;
+        margin-top: 20px;
+    }
+    .alxq-show{
+        margin-top: 20px;
+        overflow: hidden;
+    }
+    .alxq-show ul{
+        width: 100%;
+    }
+    .alxq-show ul li{
+        width: 100%;
+    }
+    .alxq-left,
+    .alxq-right{
+        z-index: 50;
+    }
+    .alxq-text{
+        margin-bottom: 40px;
     }
 }
 
